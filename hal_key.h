@@ -117,12 +117,12 @@ extern bool Hal_KeyIntEnable;
 /*
  * Initialize Columns
  */
-extern void HalInitColumns(void)
+extern void HalInitColumns(void);
 
 /*
  * Initialize Rows
  */
-extern void HalInitRows(void)
+extern void HalInitRows(void);
 
 /*
  * Initialize the Key Service
