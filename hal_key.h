@@ -114,6 +114,15 @@ extern bool Hal_KeyIntEnable;
 /**************************************************************************************************
  *                                             FUNCTIONS - API
  **************************************************************************************************/
+/*
+ * Initialize Columns
+ */
+extern void HalInitColumns(void)
+
+/*
+ * Initialize Rows
+ */
+extern void HalInitRows(void)
 
 /*
  * Initialize the Key Service
