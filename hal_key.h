@@ -78,9 +78,8 @@ extern "C"
 #define HAL_KEY_STATE_NORMAL          0x00
 #define HAL_KEY_STATE_SHIFT           0x01
 
-#define HAL_KEY_RISING_EDGE 0
-#define HAL_KEY_FALLING_EDGE 1
-
+#define HAL_KEY_RISING_EDGE 0x00
+#define HAL_KEY_FALLING_EDGE 0x01
 
 
 #define HAL_KEY_PORT0 0x01
